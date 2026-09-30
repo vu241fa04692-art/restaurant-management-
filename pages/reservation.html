@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Table Reservation</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Table Reservation</h1>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservation.html">Reservation</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="card">
+
+        <h2>Book Your Table</h2>
+
+        <br>
+
+        <form id="reservationForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <br><br>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                required
+            >
+
+            <br><br>
+
+            <input
+                type="date"
+                id="date"
+                required
+            >
+
+            <br><br>
+
+            <input
+                type="number"
+                id="people"
+                placeholder="Number of People"
+                required
+            >
+
+            <br><br>
+
+            <button type="submit" class="btn">
+                Reserve Table
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
